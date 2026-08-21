@@ -14,3 +14,8 @@ enabled = true
 verify_jwt = false
 import_map = "./functions/create-razorpay-order/deno.json"
 entrypoint = "./functions/create-razorpay-order/index.ts"
+[functions.verify-razorpay-payment]
+enabled = true
+verify_jwt = false
+import_map = "./functions/verify-razorpay-payment/deno.json"
+entrypoint = "./functions/verify-razorpay-payment/index.ts"
